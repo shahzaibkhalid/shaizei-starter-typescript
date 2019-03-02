@@ -1,0 +1,11 @@
+{
+  "extends": "@shaizei/typescript-config",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "exclude": ["build", "node_modules"],
+  "include": ["src/**/*"]
+}
