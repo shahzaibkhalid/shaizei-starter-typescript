@@ -1,0 +1,10 @@
+{
+  "typescript": true,
+  "showErrorOverly": true,
+  "checkLintingOnEveryCompilation": false,
+  "host": "localhost",
+  "port": 3000,
+  "https": false,
+  "addSourceMaps": true,
+  "title": "Shaizei | TypeScript Starter"
+}
