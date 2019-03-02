@@ -1,0 +1,4 @@
+build/
+dist/
+config/
+node_modules/
