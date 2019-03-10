@@ -2,7 +2,7 @@
   "name": "shaizei-starter-typescript",
   "version": "1.0.0",
   "description": "An official starter kit for React-TypeScript applications created with @shaizei/cli.",
-  "main": "index.tsx",
+  "main": "src/index.tsx",
   "author": "Shahzaib Khalid <shahzaibkhalidmalik@outlook.com> (http://www.shahzaibkhalid.com)",
   "license": "MIT",
   "private": true,
