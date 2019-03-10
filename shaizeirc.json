@@ -1,10 +1,13 @@
 {
   "typescript": true,
   "showErrorOverly": true,
-  "checkLintingOnEveryCompilation": false,
+  "emitLintingErrors": true,
   "host": "localhost",
   "defaultPort": 3000,
   "https": false,
   "addSourceMaps": true,
+  "cssModules": true,
+  "webpackDevSourceMap": "cheap-module-source-map",
+  "webpackProdSourceMap": "source-map",
   "title": "Shaizei | TypeScript Starter"
 }
