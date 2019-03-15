@@ -1,6 +1,9 @@
-# shaizei-starter-kit
+<h1 align="center">shaizei-starter-kit</h1>
 
-An official starter kit for React-TypeScript applications created with @shaizei/cli.
+<p align="center">An official starter kit for React-TypeScript applications created with @shaizei/cli.</p>
+
+Note: This project was scaffolded by
+[@shaizei/cli](https://www.npmjs.com/package/@shaizei/cli).
 
 # Commands
 
