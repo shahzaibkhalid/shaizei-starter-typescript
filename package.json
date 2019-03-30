@@ -18,20 +18,20 @@
     "prettier:fix": "shaizei prettier-fix"
   },
   "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-hot-loader": "^4.7.1"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.1"
   },
   "devDependencies": {
-    "@shaizei/babel-preset": "^0.1.0-beta.1",
-    "@shaizei/eslint-config": "^0.1.0-beta.1",
-    "@shaizei/prettier-config": "^0.1.0-beta.1",
-    "@shaizei/scripts": "^0.1.0-beta.1",
-    "@shaizei/typescript-config": "^0.1.0-beta.1",
-    "@shaizei/webpack-config": "^0.1.0-beta.1",
-    "@types/node": "^11.10.4",
-    "@types/react": "^16.8.6",
-    "@types/react-dom": "^16.8.2",
-    "typescript": "^3.3.3333"
+    "@shaizei/babel-preset": "^0.1.0-beta.3",
+    "@shaizei/eslint-config": "^0.1.0-beta.3",
+    "@shaizei/prettier-config": "^0.1.0-beta.2",
+    "@shaizei/scripts": "^0.1.0-beta.3",
+    "@shaizei/typescript-config": "^0.1.0-beta.3",
+    "@shaizei/webpack-config": "^0.1.0-beta.3",
+    "@types/node": "^11.12.2",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "typescript": "^3.4.1"
   }
 }
