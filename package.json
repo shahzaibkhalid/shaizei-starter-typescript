@@ -29,6 +29,7 @@
     "@shaizei/scripts": "^0.1.0-beta.4",
     "@shaizei/typescript-config": "^0.1.0-beta.3",
     "@shaizei/webpack-config": "^0.1.0-beta.4",
+    "@shaizei/cli": "^0.1.0-beta.4",
     "@types/node": "^11.12.2",
     "@types/react": "^16.8.10",
     "@types/react-dom": "^16.8.3",
