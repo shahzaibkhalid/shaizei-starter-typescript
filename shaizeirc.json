@@ -9,5 +9,5 @@
   "cssModules": false,
   "webpackDevSourceMap": "cheap-module-source-map",
   "webpackProdSourceMap": "source-map",
-  "title": "Shaizei | TypeScript Starter"
+  "title": "React App | Shaizei"
 }
