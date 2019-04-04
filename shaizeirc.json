@@ -1,7 +1,7 @@
 {
   "typescript": true,
   "showErrorOverly": true,
-  "emitLintingErrors": true,
+  "emitLintingErrors": false,
   "host": "localhost",
   "defaultPort": 3000,
   "https": false,
