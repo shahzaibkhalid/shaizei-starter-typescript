@@ -6,7 +6,7 @@
   "defaultPort": 3000,
   "https": false,
   "addSourceMaps": true,
-  "cssModules": true,
+  "cssModules": false,
   "webpackDevSourceMap": "cheap-module-source-map",
   "webpackProdSourceMap": "source-map",
   "title": "Shaizei | TypeScript Starter"
