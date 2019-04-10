@@ -4,7 +4,8 @@
     "baseUrl": "src",
     "paths": {
       "*": ["*"]
-    }
+    },
+    "types": ["react", "react-dom"]
   },
   "exclude": ["build", "node_modules"],
   "include": ["src/**/*"]
