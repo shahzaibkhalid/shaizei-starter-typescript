@@ -9,6 +9,7 @@
   "addJSSourceMaps": true,
   "cssModules": false,
   "emotion": false,
+  "typeCheck": false,
   "webpackDevSourceMap": "cheap-module-source-map",
   "webpackProdSourceMap": "source-map",
   "title": "React App | Shaizei"
