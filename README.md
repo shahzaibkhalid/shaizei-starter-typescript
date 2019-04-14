@@ -86,3 +86,11 @@ are any issues among ESLint & Prettier integration, run the following command:
 ```shell
 shaizei eslint-prettier-integration
 ```
+
+## Type Checking your TypeScript codebase
+
+In order to run type-checking on whole TypeScript codebase, just run the following command:
+
+```shell
+shaizei type-check
+```
