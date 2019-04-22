@@ -94,3 +94,8 @@ In order to run type-checking on whole TypeScript codebase, just run the followi
 ```shell
 shaizei type-check
 ```
+
+# What is `shaizei`? 🤔
+
+`shaizei` is a toolkit for building & maintaining futuristic React apps.  
+Read more about it by checking the [official repository](https://github.com/shahzaibkhalid/shaizei).
