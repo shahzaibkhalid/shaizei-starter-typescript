@@ -892,10 +892,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.11.1.tgz#8529b7412a6eb4b48bdf6e720cc1b8e6e1e17628"
   integrity sha512-8M3VN0hetwhsJ8dH8VkVy7xo5/1VoBsDOk/T4SJOeXwTO1c4uIqVNx2qyecLFnnUWD5vvUqHQ1gASSeUN6zcTg==
 
-"@shaizei/babel-preset@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/babel-preset/-/babel-preset-0.1.0-beta.7.tgz#ae3121e7073da3a783964b3f453754a6465c839f"
-  integrity sha512-8J6uXoEYM9EU/QyEfh9fCtp3rdSu6qwmwn/U/i+l21GJAnifcAonsX9l+pPx8ghWXFGWaEgOYMqbKQQ3Maq20Q==
+"@shaizei/babel-preset@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/babel-preset/-/babel-preset-0.1.0-beta.9.tgz#252290dad652a77e5a23aed6bd31174cf9012f90"
+  integrity sha512-2dP9X3ecZje8rC7HFDj+WdN7Fzve1TPzuAmaihoml9dvbESqMd8Ax6itgsVzGSYPJ9DJJRW0qpVlarGxfN5wYQ==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
@@ -909,29 +909,28 @@
     "@babel/runtime" "^7.4.2"
     "@babel/runtime-corejs2" "^7.4.2"
     "@emotion/babel-preset-css-prop" "^10.0.9"
-    babel-plugin-emotion "^10.0.9"
+    "@shaizei/helpers" "^0.1.0-beta.9"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
-    load-json-file "^5.2.0"
     react-hot-loader "^4.8.0"
 
-"@shaizei/cli@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/cli/-/cli-0.1.0-beta.7.tgz#f93fd5c3bb92c848e96adb4c3bd7f40599ed4dd7"
-  integrity sha512-+5hkzQ3Ux67QpCasLOklac76XWginqWstHZBSISkb7AYGM8j3XILemn4gAReeZbdHXkYjAZVOseG5UFCPThTmQ==
+"@shaizei/cli@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/cli/-/cli-0.1.0-beta.9.tgz#c9df6a02deac42a268886a742ac546568a05bd0e"
+  integrity sha512-hGervz1lIhKcNu7IqG3GFG3qXHhHGku4QJHarOlb7NRCiFCUjktj1Q+bk6CD61afo1HaXE8lkPudxn8q97z5ag==
   dependencies:
-    "@shaizei/scripts" "^0.1.0-beta.7"
+    "@shaizei/helpers" "^0.1.0-beta.9"
+    "@shaizei/scripts" "^0.1.0-beta.9"
     chalk "^2.4.2"
     commander "^2.19.0"
     del "^4.0.0"
-    load-json-file "^5.2.0"
 
-"@shaizei/eslint-config@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/eslint-config/-/eslint-config-0.1.0-beta.7.tgz#9ed846e589364f9a0d2703cdf07151c9fa51c301"
-  integrity sha512-rV/8WkUWCB5j9/Cxpha6BHy9kt8+gjVOGn7HmbBzXz6lrHkh9EjpSvfnRhy6dp9tfieF7+P/2+JxEWxGK9Fxww==
+"@shaizei/eslint-config@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/eslint-config/-/eslint-config-0.1.0-beta.9.tgz#fd71089979fa59fa780d8547a999215f3fc3ec32"
+  integrity sha512-iTcjTDur929JNTQXePKEWTGQkPJrg0CxEVIHavSJBElYJ2pYN8zzJEzUNLqWKgRJw2yxZi/wMfGhK2rwhIb3+Q==
   dependencies:
     "@babel/core" "^7.4.0"
-    "@shaizei/webpack-config" "^0.1.0-beta.7"
+    "@shaizei/webpack-config" "^0.1.0-beta.9"
     "@typescript-eslint/eslint-plugin" "^1.5.0"
     "@typescript-eslint/parser" "^1.5.0"
     babel-eslint "^10.0.1"
@@ -951,22 +950,30 @@
     eslint-plugin-react "^7.12.4"
     eslint-plugin-react-hooks "^1.6.0"
     prettier "^1.17.0"
-    typescript "^3.3.4000"
+    typescript "^3.4.3"
 
-"@shaizei/prettier-config@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/prettier-config/-/prettier-config-0.1.0-beta.7.tgz#950f63d7e27ce05437757e5d652478d4939f5c1b"
-  integrity sha512-1dziRAXSi3RKGfP8aHUjSVgo5mmBKlUTQq+Is+JXVmKw+gd0DbXob9wgx8FSG5Ia9rKaCXjCd9ZeNS6MmK/Svw==
+"@shaizei/helpers@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/helpers/-/helpers-0.1.0-beta.9.tgz#1d975408334575d2426626e9c023ccd4a97d41a8"
+  integrity sha512-vBklH3JsJwtpNybDKQ1/I6qmPWYPrzm/3dsreOFh3uAj9dW7Kw6iUEr4Oua8VAE8wPNQTK4/GJPe1ZClrMhBAQ==
+  dependencies:
+    load-json-file "^5.2.0"
+
+"@shaizei/prettier-config@^0.1.0-beta.8":
+  version "0.1.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@shaizei/prettier-config/-/prettier-config-0.1.0-beta.8.tgz#1b24e43876892bbe76348e9834b3072c31553c8c"
+  integrity sha512-u5wVmKfOQEXAqnbOV2N2rWmcStyw+7W5aqAm6DZRI7IMw+2bg+mS3wvUKdG5PS5z+dGUUUUTBLAmAFGMmIIBhw==
   dependencies:
     prettier "^1.17.0"
 
-"@shaizei/scripts@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/scripts/-/scripts-0.1.0-beta.7.tgz#b38e33b3129e1c71740d600057b2a3bfc013a9bc"
-  integrity sha512-q7SIeTSv0Te64ovgKGqL5s82ppLiiFELPptkAaycKhy7abp3Ml8itaAOVdd9131XxsG0PSNxFi3U9BtDC5CHYA==
+"@shaizei/scripts@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/scripts/-/scripts-0.1.0-beta.9.tgz#98636e4c4df23f22a4d646b4150acec93d28d3be"
+  integrity sha512-8Li3hwDmo+bs55vsk+khIpHSVT8epI9snMUt5u5LNpZJ0qoHuqZRje8rdrkGL0inwxNrNIUwA5EGlyMYZ9hB/A==
   dependencies:
-    "@shaizei/babel-preset" "^0.1.0-beta.7"
-    "@shaizei/eslint-config" "^0.1.0-beta.7"
+    "@shaizei/babel-preset" "^0.1.0-beta.9"
+    "@shaizei/eslint-config" "^0.1.0-beta.9"
+    "@shaizei/helpers" "^0.1.0-beta.9"
     cross-spawn "^6.0.5"
     eslint "^5.15.3"
     serve "^10.1.2"
@@ -975,23 +982,24 @@
     webpack-cli "^3.3.0"
     webpack-dev-server "^3.2.1"
 
-"@shaizei/typescript-config@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/typescript-config/-/typescript-config-0.1.0-beta.7.tgz#55f1b23b225181abe707d833804d3d9dcec1e89d"
-  integrity sha512-hHbUKM439tYy9pnugJqL/fofdaQ/EHhRm32oZJunkwYr3+RSJ7DuZNg5nbdf2+8h1ivP77pdNTfY8PuILr7v8A==
+"@shaizei/typescript-config@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/typescript-config/-/typescript-config-0.1.0-beta.9.tgz#4bc056d2c26a7b9b39e64dfc707c91db687448c2"
+  integrity sha512-NBdzB8nqrhUNJ5+qspwS2oK7g2akvr8AW+3fUhteqU5NfZmn/eFjvoVIlEY0+b4oCRTprVcvhIMDV2fLLKifVg==
   dependencies:
     "@types/react" "^16.8.10"
     "@types/react-dom" "^16.8.3"
     "@types/react-redux" "^7.0.5"
-    typescript "^3.3.4000"
+    typescript "^3.4.3"
 
-"@shaizei/webpack-config@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@shaizei/webpack-config/-/webpack-config-0.1.0-beta.7.tgz#c0fb7fe8198de8b7fb7747a02678e309fc2e9bf0"
-  integrity sha512-WICeAzKKmNYPfCMpQJH6u3XZwy/ydWhUY9qbLHauLs2VHdUx/hA2oaG6yupR582eJXhJAR/xa525QvIQ206GiQ==
+"@shaizei/webpack-config@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@shaizei/webpack-config/-/webpack-config-0.1.0-beta.9.tgz#71623dde50b4cf0b60f9b99ec247666287d2505b"
+  integrity sha512-DXmP7u/RfygP1KXt9J0ycCJq5byyVPIpczegyy/NgmPyIvlj6DYULfWJtQvvi1oZICiJ9HHAh0UXaRZLMOBQOg==
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/runtime-corejs2" "^7.4.2"
+    "@shaizei/helpers" "^0.1.0-beta.9"
     babel-loader "^8.0.5"
     case-sensitive-paths-webpack-plugin "^2.2.0"
     ci-info "^2.0.0"
@@ -1007,7 +1015,6 @@
     html-webpack-inline-source-plugin "^0.0.10"
     html-webpack-plugin "^3.2.0"
     image-webpack-loader "^4.6.0"
-    load-json-file "^5.2.0"
     mini-css-extract-plugin "^0.5.0"
     node-sass "^4.11.0"
     optimize-css-assets-webpack-plugin "^5.0.1"
@@ -1015,7 +1022,7 @@
     sass-loader "^7.1.0"
     style-loader "^0.23.1"
     terser-webpack-plugin "^1.2.3"
-    typescript "^3.3.4000"
+    typescript "^3.4.3"
     url-loader "^1.1.2"
     webpack "^4.29.6"
     webpack-bundle-analyzer "^3.1.0"
@@ -9075,7 +9082,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.3.4000, typescript@^3.4.3:
+typescript@^3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.3.tgz#0eb320e4ace9b10eadf5bc6103286b0f8b7c224f"
   integrity sha512-FFgHdPt4T/duxx6Ndf7hwgMZZjZpB+U0nMNGVCYPq0rEzWKjEDobm4J6yb3CS7naZ0yURFqdw9Gwc7UOh/P9oQ==
