@@ -4,7 +4,7 @@ interface Props {
   name: string;
 }
 
-const Play: FunctionComponent<Props> = (props): JSX.Element => {
+const Hello: FunctionComponent<Props> = (props): JSX.Element => {
   const { name } = props;
   return (
     <div>
@@ -13,4 +13,4 @@ const Play: FunctionComponent<Props> = (props): JSX.Element => {
   );
 };
 
-export default Play;
+export default Hello;
