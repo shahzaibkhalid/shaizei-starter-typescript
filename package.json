@@ -21,19 +21,19 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-hot-loader": "^4.11.1"
+    "react-hot-loader": "^4.12.5"
   },
   "devDependencies": {
-    "@shaizei/babel-preset": "^0.1.0-beta.10",
-    "@shaizei/eslint-config": "^0.1.0-beta.10",
+    "@shaizei/babel-preset": "^0.1.0-beta.11",
+    "@shaizei/eslint-config": "^0.1.0-beta.11",
     "@shaizei/prettier-config": "^0.1.0-beta.10",
-    "@shaizei/scripts": "^0.1.0-beta.10",
-    "@shaizei/typescript-config": "^0.1.0-beta.10",
-    "@shaizei/webpack-config": "^0.1.0-beta.10",
-    "@shaizei/cli": "^0.1.0-beta.10",
-    "@types/node": "^12.0.10",
-    "@types/react": "^16.8.22",
+    "@shaizei/scripts": "^0.1.0-beta.11",
+    "@shaizei/typescript-config": "^0.1.0-beta.11",
+    "@shaizei/webpack-config": "^0.1.0-beta.11",
+    "@shaizei/cli": "^0.1.0-beta.11",
+    "@types/node": "^12.6.1",
+    "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.3"
   }
 }
