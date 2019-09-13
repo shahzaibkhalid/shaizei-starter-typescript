@@ -19,9 +19,9 @@
     "type-check": "shaizei type-check"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-hot-loader": "^4.12.5"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hot-loader": "^4.12.12"
   },
   "devDependencies": {
     "@shaizei/babel-preset": "^0.1.0-beta.11",
@@ -31,9 +31,9 @@
     "@shaizei/typescript-config": "^0.1.0-beta.11",
     "@shaizei/webpack-config": "^0.1.0-beta.11",
     "@shaizei/cli": "^0.1.0-beta.11",
-    "@types/node": "^12.6.1",
-    "@types/react": "^16.8.23",
-    "@types/react-dom": "^16.8.4",
-    "typescript": "^3.5.3"
+    "@types/node": "^12.7.4",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.2"
   }
 }
