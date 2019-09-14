@@ -5,7 +5,7 @@
     "paths": {
       "*": ["*"]
     },
-    "types": ["react", "react-dom"]
+    "types": ["react", "react-dom", "node"]
   },
   "exclude": ["build", "node_modules"],
   "include": ["src/**/*"]
